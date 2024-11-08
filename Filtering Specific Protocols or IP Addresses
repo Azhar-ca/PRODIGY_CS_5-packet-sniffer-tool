@@ -1,0 +1,5 @@
+
+Use filters to capture specific packets, such as TCP, UDP, or specific IPs:
+
+python
+sniff(filter="tcp or udp", prn=packet_callback)
